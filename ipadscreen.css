@@ -1,0 +1,89 @@
+nav a{
+    display:none;
+}
+nav h1{
+    margin: 0 50px;
+}
+#first-section{
+width: 100vw;
+display: flex;
+justify-content: center;
+}
+#first-section img{
+    width: 50vw;
+}
+#first-section .main{
+    width: 45vw;
+}
+#second-section{
+    height: 100vh;
+}
+#n1{
+    flex-wrap: wrap;
+}
+#second-section h1{
+position: relative;
+right: 200px;
+}
+#n1 div:nth-of-type(3){
+    position: relative;
+    left: 200px;
+}
+#third-section{
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+#third-section div:nth-of-type(1){
+    position: relative;
+    right: 160px;
+}
+#third-section div:nth-of-type(2) p{
+line-height: 50px;
+text-align:left;
+}
+#third-section div:nth-of-type(2) h1{
+    font-size: 33px;
+}
+#fourth-section{
+    width: 100vw;
+    height: 170vh;
+}
+#images div{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+#fifth-section{
+    width: 100vw;
+    height: 150vh;
+}
+.all{
+    flex-wrap: wrap;
+}
+#sixth-section{
+    width: 100vw;
+    height: 155vh;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(3, 90%);
+}
+#sixth-section p{
+    line-height: 30px;
+}
+#seventh-section{
+    width: 100vw;
+}
+#eighth-section{
+    width: 100vw;
+    height: 100vh;
+}
+.cloud-container{
+    flex-wrap: wrap;
+    width: 100vw;
+}
+#tenth-section, #eleventh-section{
+    width: 100vw;
+}
